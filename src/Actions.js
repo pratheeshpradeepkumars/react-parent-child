@@ -6,7 +6,7 @@ export default function Actions({ formData }) {
   }
   return (
     <div>
-      <h1>Actions</h1>
+      <h4>Actions</h4>
       <button onClick={getFormData}>OK</button>
     </div>
   );

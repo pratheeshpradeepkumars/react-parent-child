@@ -9,7 +9,7 @@ export default function FormRenderEngine(props) {
 
   return (
     <div>
-      <h3>Form Render Engine Wrapper</h3>
+      <h3>Form Render Engine</h3>
       <input value={inputValue} onChange={handleChange} />
       {React.cloneElement(props.children, {
         formData: inputValue,
